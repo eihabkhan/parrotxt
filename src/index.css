@@ -17,6 +17,8 @@ Variables
   --clr-grey-3: hsl(212, 33%, 89%);
   --clr-grey-4: hsl(210, 36%, 96%);
   --clr-white: #fff;
+  --twitter-link: #00acee;
+  --twitter-link-hover: #0079a8;
 
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
@@ -80,6 +82,18 @@ p {
 }
 span {
   color: var(--clr-primary-2);
+}
+
+footer {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.credit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--clr-grey-2);
 }
 
 @media screen and (min-width: 800px) {
@@ -208,4 +222,13 @@ article {
 
 .result {
   margin-bottom: 2rem;
+}
+
+.twitter {
+  color: var(--twitter-link);
+  transition: var(--transition);
+}
+
+.twitter:hover {
+  color: var(--twitter-link-hover);
 }
