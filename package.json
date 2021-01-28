@@ -10,6 +10,7 @@
     "react": "^16.13.1",
     "react-copy-to-clipboard": "^5.0.3",
     "react-dom": "^16.13.1",
+    "react-github-btn": "^1.2.0",
     "react-scripts": "3.4.3",
     "react-toastify": "^7.0.1",
     "styled-components": "^5.2.1"

@@ -112,6 +112,18 @@ const GlobalStyle = createGlobalStyle`
     }
     }
 
+    label {
+        font-size: 1.25rem;
+    }
+        input {
+        padding: 0.25rem 0.5rem;
+        width: 4rem;
+        border-radius: var(--radius);
+        border: none;
+        margin: 0 0.5rem;
+        font-size: 1.25rem;
+    }
+
 `
  
 export default GlobalStyle;

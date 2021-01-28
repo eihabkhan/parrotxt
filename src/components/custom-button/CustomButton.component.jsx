@@ -8,7 +8,7 @@ import {
 
 export const Button = ({children, ...props}) => {
     return ( 
-        <CustomButtonContainer>
+        <CustomButtonContainer {...props}>
             {children}
         </CustomButtonContainer>
      );
