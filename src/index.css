@@ -205,7 +205,6 @@ article {
 .btn.ctc {
   position: absolute;
   font-size: 12px;
-  text-align: center;
   top: 20px;
   right: 20px;
   color: var(--clr-grey-4);
@@ -218,17 +217,4 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.result {
-  margin-bottom: 2rem;
-}
-
-.twitter {
-  color: var(--twitter-link);
-  transition: var(--transition);
-}
-
-.twitter:hover {
-  color: var(--twitter-link-hover);
 }
