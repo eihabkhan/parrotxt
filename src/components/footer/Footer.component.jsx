@@ -10,7 +10,7 @@ import {
 const QualityBadge = () => {
 
     return ( 
-        <div className="quality" style={{marginTop: "10px"}}>Made with <span role="img" aria-label="heart">💖</span> by  <TwitterLink href="https://twitter.com/eihab_khan" target="_blank" rel="noopener noreferrer" >Eihab Khan</TwitterLink></div>
+        <div className="quality" style={{marginTop: "10px", marginBottom: "16px"}}>Made with <span role="img" aria-label="heart">💖</span> by  <TwitterLink href="https://twitter.com/eihab_khan" target="_blank" rel="noopener noreferrer" >Eihab Khan</TwitterLink></div>
      );
 }
 
@@ -20,7 +20,8 @@ const Footer = () => {
             <CreditWrapper>
                 <div className="copyright">{"\u00a9"} 2021 Parrotxt.</div>
                 <div>                
-                    <GitHubButton href="https://github.com/eihabkhan" aria-label="Follow @eihabkhan on GitHub" data-size="large">Follow @eihabkhan</GitHubButton>
+                
+                <GitHubButton href="https://github.com/eihabkhan/parrotxt" data-size="large" aria-label="Star eihabkhan/parrotxt on GitHub">Star</GitHubButton>
                 </div>                                
             </CreditWrapper>
             <QualityBadge />
