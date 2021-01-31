@@ -10,6 +10,7 @@ import { Form } from './components/form/Form.component'
 import {Hero} from './components/hero/Hero.component';
 import Article from './components/article/Article.component'
 import Footer from './components/footer/Footer.component'
+import {PHBadge} from './components/product-hunt/PHBadge.component'
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -26,26 +27,28 @@ const App = () => {
   const notify = () => toast('🦜 Copied!')
 
   return ( 
-    <Section>
-          <Hero />
-          <Form onSubmit={handleSubmit} count={count} onChange={(e) => setCount(e.target.value)}/>
-          
-          {
-          text.length > 0 && <Article text={text} onCopy={notify}/>
-          }
+    <>
+    <PHBadge />
+      <Section>        
+        <Hero />
+        <Form onSubmit={handleSubmit} count={count} onChange={(e) => setCount(e.target.value)}/>
+        
+        {
+        text.length > 0 && <Article text={text} onCopy={notify}/>
+        }
 
-          <Footer />
-          <ToastContainer
-              position='top-right'
-              autoClose={5000}
-              hideProgressBar={false}
-              newestOnTop={true}
-              closeOnClick
-              draggable
-            />
-          
-      </Section>  
-      
+        <Footer />
+        <ToastContainer
+            position='top-right'
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={true}
+            closeOnClick
+            draggable
+          />
+            
+        </Section>  
+      </>
    );
 }
     
