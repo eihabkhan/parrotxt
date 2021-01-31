@@ -12,6 +12,8 @@ Using lorem ipsum is boring, so many designers are using it where it's starting 
 
 ![Parrotxt](./src/assets/preview/comparison.png)
 
+![App preview gif](./src/assets/preview/preview.gif)
+
 ### 🚀 Go to app: <a href="https://parrotxt.netlify.com/" target="_blank">Parrotxt</a>
 ### 🐦 Follow me: <a href="https://twitter.com/eihab_khan" target="_blank">@eihab_khan</a>
 
@@ -21,5 +23,5 @@ Using lorem ipsum is boring, so many designers are using it where it's starting 
 	* Logo designed by: Andrey Krylov
 	* Icons designed by: Lyhn
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/09049a5f-57ab-4fa0-96df-76282628d26d/deploy-status)](https://app.netlify.com/sites/parrotxt/deploys)	
+
 
