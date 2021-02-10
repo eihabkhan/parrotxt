@@ -10,6 +10,8 @@
 
 Using lorem ipsum is boring, so many designers are using it where it's starting to affect our designs negatively. That's why I created **Parrotxt** a simple and beautiful text generator that uses **REAL** text.
 
+![Parrotxt](./src/assets/preview/lighthouse.png)
+
 ![Parrotxt](./src/assets/preview/comparison.png)
 
 ![App preview gif](./src/assets/preview/preview.gif)
