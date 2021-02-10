@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "parrotxt",
+  "name": "Parrotxt",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +18,11 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://parrotxt.netlify.app/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "hsl(0, 39%, 51%)",
+  "background_color": "hsl(210, 36%, 96%)",
+  "url": "https://parrotxt.netlify.app/",
+  "lang": "",
+  "screenshots": []
 }
