@@ -1,0 +1,28 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "https://parrotxt.netlify.app/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://parrotxt.netlify.app/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://parrotxt.netlify.app/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://parrotxt.netlify.app/",
+  "display": "standalone",
+  "theme_color": "hsl(0, 39%, 51%)",
+  "background_color": "hsl(210, 36%, 96%)",
+  "url": "https://parrotxt.netlify.app/",
+  "lang": "",
+  "screenshots": []
+}
